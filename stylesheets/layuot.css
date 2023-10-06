@@ -3,7 +3,7 @@ body {
 	-moz-osx-font-smoothing: grayscale; 
 	font-family: 'PT Sans', sans-serif;
 }
-article a { 
+a { 
 	color: inherit; 
 	/* цвет наследуется от родителя*/
 }

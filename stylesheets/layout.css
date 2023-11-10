@@ -7,15 +7,11 @@ a {
 	color: inherit; 
 	/* цвет наследуется от родителя*/
 }
-article h1, 
-article h2, 
-article h3, 
-article h4, 
-article p, 
-article ul, 
-article ol,
-article hr,
-article blockquote { 
+*{
+	box-sizing: border-box;
+}
+
+article * { 
 	width: 700px; 
 	margin: 0 auto;
 }
@@ -93,7 +89,7 @@ article blockquote::before{
 }
 article img { 
 	display: block; 
-	width: 1020px; 
+	width: 100%; 
 	margin: 79px auto 0;
 }
 article img + article h2 { 

@@ -1,5 +1,6 @@
 @import url('reset.css');
-@import url('layuot.css');
+@import url('layout.css');
 @import url('sidebar.css');
 @import url('menubar.css');
 @import url('about.css');
+@import url('responsive.css');
